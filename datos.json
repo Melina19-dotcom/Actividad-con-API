@@ -1,0 +1,37 @@
+[
+    {
+        "nombre": "Flavio",
+        "edad": 29,
+        "hobby": ["musica","ejercicio"]
+    },
+    {
+        "nombre": "Valeria",
+        "edad": 18,
+        "hobby": ["musica","animes","leer"]
+    },
+    {
+        "nombre": "Luz",
+        "edad": 19,
+        "hobby": ["peliculas","musica","leer"]
+    },
+    {
+        "nombre": "Estrella",
+        "edad": 15,
+        "hobby": ["musica"]
+    },
+    {
+        "nombre": "Nicole",
+        "edad": 15,
+        "hobby": ["bailar"]
+    },
+    {
+        "nombre": "Estefania",
+        "edad": 16,
+        "hobby": ["cantar","leer","bailar","voley"]
+    },
+    {
+        "nombre": "Abigail",
+        "edad": 15,
+        "hobby": ["bailar","leer"]
+    }
+]
