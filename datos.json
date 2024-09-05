@@ -33,5 +33,10 @@
         "nombre": "Abigail",
         "edad": 15,
         "hobby": ["bailar","leer"]
+    },
+    {
+        "nombre":"Erika",
+        "edad": 19,
+        "hobby":["leer","peliculas"]
     }
 ]

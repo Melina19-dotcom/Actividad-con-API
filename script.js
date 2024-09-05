@@ -11,6 +11,8 @@ fetch('datos.json')
         //console.log(personas);
         mostrarNombres(personas);
         mostrarEdades(personas);
+        menoresDeEdad(personas);
+        mayoresDeEdad(personas);
     });
 
 function mostrarNombres(personas){
@@ -21,4 +23,16 @@ function mostrarNombres(personas){
 function mostrarEdades(personas){
     console.log("Edades de los(as) integrantes");
     personas.forEach(persona => console.log(persona.edad));
+}
+
+function menoresDeEdad(personas){
+    console.log("Menores de Edad:");
+    const menorDeEdad = personas.filter(persona => persona.edad < 18);
+    menorDeEdad.forEach(persona => console.log(persona.nombre))
+}
+
+function mayoresDeEdad(personas){
+    console.log("Mayores de Edad:");
+    const mayorDeEdad = personas.filter(persona => persona.edad >= 18);
+    mayorDeEdad.forEach(persona => console.log(persona.nombre))
 }
