@@ -9,10 +9,11 @@ fetch('datos.json')
     })
     .then(personas => {
         //console.log(personas);
-        mostrarNombres(personas);
-        mostrarEdades(personas);
-        menoresDeEdad(personas);
-        mayoresDeEdad(personas);
+       //mostrarNombres(personas);
+        //mostrarEdades(personas);
+        //menoresDeEdad(personas);
+        //mayoresDeEdad(personas);
+        minDosHobbies(personas);
     });
 
 function mostrarNombres(personas){
@@ -35,4 +36,10 @@ function mayoresDeEdad(personas){
     console.log("Mayores de Edad:");
     const mayorDeEdad = personas.filter(persona => persona.edad >= 18);
     mayorDeEdad.forEach(persona => console.log(persona.nombre))
+}
+
+function minDosHobbies(personas){
+    console.log("Personas con 2 hobbies o más")
+    const hobbies = personas.filter(persona => persona.hobby.length >= 2);
+    hobbies.forEach(persona => console.log(persona.nombre))
 }
