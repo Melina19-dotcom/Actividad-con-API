@@ -1,0 +1,52 @@
+[{
+    "nombre": "pikachu",
+    "tipos": ["electrico"],
+    "ataque": 120,
+    "defensa": 80
+},
+{
+    "nombre": "charizard",
+    "tipos": ["fuego","volador"],
+    "ataque": 180,
+    "defensa": 110
+},
+{
+    "nombre": "squirtle",
+    "tipos": ["agua"],
+    "ataque": 100,
+    "defensa": 90
+},
+{
+    "nombre": "bulbasaur",
+    "tipos": ["planta","veneno"],
+    "ataque": 80,
+    "defensa": 100
+},
+
+{
+    "nombre": "zapdos",
+    "tipos": ["electrico","volador"],
+    "ataque": 200,
+    "defensa": 160
+},
+{
+    "nombre": "lapras",
+    "tipos": ["agua","hielo"],
+    "ataque": 160,
+    "defensa": 200
+},
+
+{
+    "nombre": "Magmar",
+    "tipos": ["Fuego"],
+    "ataque": 130,
+    "defensa": 70
+},
+{
+    "nombre": "Tangela",
+    "tipos": ["Planta"],
+    "ataque": 90,
+    "defensa": 80
+}
+
+]

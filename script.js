@@ -13,7 +13,8 @@ fetch('datos.json')
         //mostrarEdades(personas);
         //menoresDeEdad(personas);
         //mayoresDeEdad(personas);
-        minDosHobbies(personas);
+        //minDosHobbies(personas);
+        maxTresHobbies(personas);
     });
 
 function mostrarNombres(personas){
@@ -39,7 +40,13 @@ function mayoresDeEdad(personas){
 }
 
 function minDosHobbies(personas){
-    console.log("Personas con 2 hobbies o más")
+    console.log("Personas con 2 hobbies o más:");
     const hobbies = personas.filter(persona => persona.hobby.length >= 2);
     hobbies.forEach(persona => console.log(persona.nombre))
+}
+
+function maxTresHobbies(personas){
+    console.log("Personas con 3 hobbies o más:");
+    const hobbies2 = personas.filter(persona => persona.hobby.length >=3);
+    hobbies2.forEach(persona => console.log(persona.nombre))
 }
