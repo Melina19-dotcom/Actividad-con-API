@@ -20,7 +20,7 @@ fetch('data.json')
         pokemonesDefensaMenorA100(pokemones)
 
         //4. pokemones de tipo electrico (o fuego, volador, planta, agua, veneno, hielo... pueden elegir)
-        //pokemonesTipoElectrico(pokemones)
+        pokemonesTipoElectrico(pokemones)
 
         //5. pokemones que tengan minimo 2 tipos
         //minimo2tipos(pokemones)
@@ -53,7 +53,9 @@ function pokemonesDefensaMenorA100(pokemones) {
 }
 
 function pokemonesTipoElectrico(pokemones) {
-    //Escribe tu codigo aqui
+    console.log("Pokemones tipo electrico:");
+    const electricos = pokemones.filter(pokemon => pokemon.tipos.includes("electrico"))
+    electricos.forEach(pokemon => console.log(pokemon.nombre))
 
 }
 
